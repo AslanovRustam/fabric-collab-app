@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import * as fabric from "fabric"; // Correct import for FabricImage
+import * as fabric from "fabric";
 
 export default function CropperCanvas() {
   const canvasRef = useRef(null);
